@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="@dimen/layout_margin"
+    android:background="@android:color/white"
+    tools:context=".page.DetailsFragment">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/layout_bottom"
+        android:layout_marginLeft="@dimen/layout_bottom"
+        android:layout_marginRight="@dimen/layout_bottom"
+        android:weightSum="6">
+
+        <TextView
+            android:id="@+id/id_textview"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:text="add"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/name_textview_details"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="@string/label_name_eng"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/name_edittext_details"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:text="Nume"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="23sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/layout_bottom"
+        android:layout_marginLeft="@dimen/layout_bottom"
+        android:layout_marginRight="@dimen/layout_bottom"
+        android:weightSum="6">
+
+
+        <TextView
+            android:id="@+id/pieces_textview_details"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="@string/label_pieces_eng"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="22sp"/>
+
+        <Spinner
+            android:id="@+id/pieces_spinner_details"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/layout_bottom"
+        android:layout_marginLeft="@dimen/layout_bottom"
+        android:layout_marginRight="@dimen/layout_bottom"
+        android:weightSum="6">
+
+
+        <TextView
+            android:id="@+id/type_textview_details"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="@string/label_type_eng"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="22sp"/>
+
+        <Spinner
+            android:id="@+id/type_spinner_details"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:entries="@array/spinnerType"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/layout_bottom"
+        android:layout_marginLeft="@dimen/layout_bottom"
+        android:layout_marginRight="@dimen/layout_bottom"
+        android:weightSum="6">
+
+        <TextView
+            android:id="@+id/best_before_textview_details"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="@string/label_best_before_eng"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="22sp"/>
+
+        <!-- Add onclick method that opens dialog with date -->
+
+        <EditText
+            android:id="@+id/best_before_edittext_details"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:text="Data exp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/layout_bottom"
+        android:layout_marginLeft="@dimen/layout_bottom"
+        android:layout_marginRight="@dimen/layout_bottom"
+        android:weightSum="6">
+
+        <TextView
+            android:id="@+id/base_substance_textview_details"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="@string/label_base_substance_eng"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="22sp"/>
+
+        <!-- Add onclick method that opens dialog with date -->
+
+        <EditText
+            android:id="@+id/base_substance_edittext_details"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:text="Base subst"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/layout_bottom"
+        android:layout_marginLeft="@dimen/layout_bottom"
+        android:layout_marginRight="@dimen/layout_bottom"
+        android:weightSum="6">
+
+        <TextView
+            android:id="@+id/base_substance_quantity_textview_details"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="@string/label_base_substance_quantity_eng"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="22sp"/>
+
+        <!-- Add onclick method that opens dialog with date -->
+        <Spinner
+            android:id="@+id/quantity1_spinner_details"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:entries="@array/spinnerNumbers100"
+            />
+
+        <Spinner
+            android:id="@+id/quantity2_spinner_details"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:entries="@array/quantity"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/layout_bottom"
+        android:layout_marginRight="@dimen/layout_bottom"
+        android:orientation="horizontal"
+        android:weightSum="6">
+
+        <ImageView
+            android:id="@+id/image_details"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:src="@drawable/coldrex"/>
+
+        <Button
+            android:id="@+id/add_image_button_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="@string/add_image_button"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/description_textview_details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_description_eng"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+                <EditText
+                    android:id="@+id/description_edittext_details"
+                    android:layout_width="match_parent"
+                    android:layout_height="134dp"
+                    android:text="Descriere"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttons_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/update_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_update_eng"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            />
+
+        <Button
+            android:id="@+id/remove_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_remove_eng"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            />
+
+        <Button
+            android:id="@+id/cancel_button_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_cancel_eng"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
+

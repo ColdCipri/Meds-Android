@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Meds management</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Language ro -->
+    <string name="add_id_ro">Introduceti id-ul</string>
+    <string name="add_name_ro">Introduceti numele medicamentului</string>
+    <string name="add_best_before_ro">Introduceti data expirarii</string>
+    <string name="add_pieces_ro">Introduceti numarul de bucati</string>
+    <string name="add_base_substance_ro">Introduceti substanta de baza</string>
+    <string name="add_base_substance_quantity_ro">Introduceti cantitatea substantei de baza</string>
+    <string name="add_description_ro">Introduceti descrierea</string>
+
+    <string name="label_name_ro">Nume: </string>
+    <string name="label_best_before_ro">Data expirarii: </string>
+    <string name="label_pieces_ro">Bucati: </string>
+    <string name="label_base_substance_ro">Substana de baza: </string>
+    <string name="label_base_substance_quantity_ro">Cantitate: </string>
+    <string name="label_description_ro">Descriere: </string>
+
+    <string name="button_cancel_ro">Cancel</string>
+    <string name="button_add_ro">Adauga</string>
+    <string name="button_remove_ro">Sterge</string>
+    <string name="button_update_ro">Actualizeaza</string>
+
+    <string name="label_details_ro">Detalii</string>
+
+    <!-- Language eng -->
+    <string name="add_id_eng">Enter id</string>
+    <string name="add_name_eng">Enter name</string>
+    <string name="add_best_before_eng">Enter best before</string>
+    <string name="add_pieces_eng">Enter pieces</string>
+    <string name="add_base_substance_eng">Enter base substance</string>
+    <string name="add_base_substance_quantity_eng">Enter quantity of base substance</string>
+    <string name="add_description_eng">Enter description</string>
+
+    <string name="label_name_eng">Name: </string>
+    <string name="label_best_before_eng">Best before: </string>
+    <string name="label_pieces_eng">Pieces: </string>
+    <string name="label_base_substance_eng">Base substance: </string>
+    <string name="label_base_substance_quantity_eng">Quantity: </string>
+    <string name="label_description_eng">Description: </string>
+
+    <string name="button_cancel_eng">Cancel</string>
+    <string name="button_add_eng">Add</string>
+    <string name="button_remove_eng">Remove</string>
+    <string name="button_update_eng">Update</string>
+
+    <string name="label_details_eng">Details</string>
+
+    <string name="refresh">Refresh</string>
+    <string name="label_type_eng">Type:</string>
+    <string name="add_image_button">Add image</string>
+    <string name="label_add_eng">Add</string>
+</resources>
